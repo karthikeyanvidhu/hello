@@ -15,7 +15,7 @@ public class HelloApplication {
 	
 	  @GetMapping({"/"})
 	  public String chkk()  { 
-		  return "Hello";
+		  return "Hello World";
 	  }
 	  
 	  @GetMapping({"/hello"})
